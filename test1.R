@@ -4,7 +4,7 @@ names(df)
 summary(df)
 library(psych)
 
-library(tidyverse)
+
 
 unique(df$state)
 meg = df[df$state_1 == 'MEG',]

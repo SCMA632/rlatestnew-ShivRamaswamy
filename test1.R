@@ -27,7 +27,7 @@ head(meg,3)
 tail(meg,3)
 
 # Unique Districts of the subset
-unique(meg$District)
+
 
 str(meg)
 

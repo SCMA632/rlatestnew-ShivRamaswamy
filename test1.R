@@ -2,6 +2,8 @@ df = read.csv('4. NSSO68 data set.csv')
 dim(df)
 names(df)
 summary(df)
+library(psych)
+library(tidyverse)
 
 unique(df$state)
 meg = df[df$state_1 == 'MEG',]

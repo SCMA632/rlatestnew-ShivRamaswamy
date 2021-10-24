@@ -3,6 +3,7 @@ dim(df)
 names(df)
 summary(df)
 library(psych)
+install.packages("tidyverse")
 library(tidyverse)
 
 unique(df$state)

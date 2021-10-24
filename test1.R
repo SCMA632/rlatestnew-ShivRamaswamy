@@ -3,7 +3,7 @@ dim(df)
 names(df)
 summary(df)
 library(psych)
-install.packages("tidyverse")
+
 library(tidyverse)
 
 unique(df$state)
@@ -38,8 +38,7 @@ str(meg)
 
 # takes lot time to generate a report
 #create_report(meg)
-
-glimpse(meg)
+describe(meg)
 
 is.na(meg)
 
